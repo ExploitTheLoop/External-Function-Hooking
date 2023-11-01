@@ -29,4 +29,4 @@ hook_lib_no_backup("com.pubg.imobile" , "libanogs.so" , "0xabc", (void *) hsub_a
           MemoryOffset(pkg,OBFUSCATE("1.920.287.604"), 4, &count,DWORD);
           MemoryWrite(pkg,OBFUSCATE("84,149,249"), 0, DWORD);
           ClearResults();
-		  ```
+		  
