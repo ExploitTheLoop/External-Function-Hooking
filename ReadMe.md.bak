@@ -27,3 +27,23 @@ hook_lib_no_backup("com.pubg.imobile" , "libanogs.so" , "0xabc", (void *) hsub_a
           MemoryWrite(pkg,OBFUSCATE("84,149,249"), 0, DWORD);
           ClearResults();
 		  ```
+
+
+## Building the source
+`ndk-build`:
+```shell
+git clone https://github.com/ExploitTheLoop/ImguiEspAndroid
+cd ImguiEspAndroid
+ndk-build
+```
+
+You need [ninja](https://ninja-build.org/) build system to use ninja cmake generator.
+
+`cmake`:
+```shell
+mkdir build
+cd build
+cmake -GNinja -DCMAKE_MAKE_PROGRAM=/path/to/ninja.exe -DCMAKE_ANDROID_NDK=/path/to/android-ndk \
+  -DCMAKE_TOOLCHAIN_FILE=toolchains/android.cmake ..
+cmake --build .
+```
