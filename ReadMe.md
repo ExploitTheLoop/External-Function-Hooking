@@ -3,7 +3,7 @@
 - A c++ independent executable program , this helps reverse engineers to hijack any function of a program or alter memory of an address according to your will. its made for educational purposes dont' use it for illegal purposes . 
 
 
-![MmEU66k.gif](https://i.imgur.com/MmEU66k.gif)
+-![Sample Gif](https://i.imgur.com/MmEU66k.gif)
 
 ## Features
 - Built with C++.
