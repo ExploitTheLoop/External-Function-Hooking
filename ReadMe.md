@@ -3,7 +3,7 @@
 - A c++ independent executable program , this helps reverse engineers to hijack any function of a program or alter memory of an address according to your will. its made for educational purposes dont' use it for illegal purposes . 
 
 
-![Sample Gif](https://i.imgur.com/MmEU66k.gif)
+![Sample Gif]([https://i.imgur.com/MmEU66k.gif](https://github.com/ExploitTheLoop/External-Function-Hooking/blob/main/document_6199413394852809235.gif))
 
 ## Features
 - Built with C++.
